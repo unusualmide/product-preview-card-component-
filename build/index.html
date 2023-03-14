@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    >
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body
+    class="antialiased bg-[#f2ebe3] min-h-screen min-w-full grid place-content-center"
+  >
+    <main class="flex flex-col lg:flex-row">
+      <div>
+        <img
+          class="object-cover lg:object-contain lg:rounded-tr-none rounded-t-lg lg:rounded-l-lg w-[400px] h-72 lg:h-full lg:w-[260px]"
+          src="img/image-product-desktop.png"
+          alt="preview"
+        >
+      </div>
+      <div
+        class="border-white w-[400px] lg:w-[260px] bg-white rounded-b-lg lg:rounded-r-lg lg:rounded-bl-none py-5 px-6"
+      >
+        <p class="text-sm lg:text-xs tracking-[0.2rem] text-gray-400 pb-4">
+          PERFUME
+        </p>
+        <h1
+          class="fraunces leading-9 lg:leading-8 text-[35px] lg:text-3xl pb-5"
+        >
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="text-[15px] lg:text-[12.5px] text-gray-400">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <section class="flex flex-row gap-4 pt-6 pb-5">
+          <p class="animate-pulse fraunces text-3xl lg:text-2xl text-[#3c8067]">
+            $149.99
+          </p>
+          <p class="text-sm lg:text-xs text-gray-400 line-through my-2">
+            $169.99
+          </p>
+        </section>
+        <button
+          class="bg-[#3c8067] py-4 lg:py-3 px-32 lg:px-14 text-xs font-bold text-white rounded-md flex justify-center items-center hover:bg-[#205240] active:ring active:ring-black active:ring-opacity-20"
+        >
+          <span class="inline-flex gap-2"
+            ><img
+              class="object-contain"
+              src="img/icon-cart.png"
+              alt="preview"
+            >Add to Cart</span
+          >
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
